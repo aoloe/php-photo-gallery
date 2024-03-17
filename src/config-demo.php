@@ -1,12 +1,14 @@
 <?php
 return [
-    'path' => 'data/',
+    'path' => 'data/', // default value
+    'title' => 'My Photos', // optional
+    'css' => 'gallery.css', // optional
     'albums' => [
         'demo' => [
-            'title' => 'Demo photos',
-            'secret' => 'not so secret',
-            'low-res' => '640/',
-            'high-res' => '1920/',
+            'title' => 'Demo photos', // mandatory
+            'secret' => 'not so secret', // optional
+            'low-res' => '640/', // default value
+            'high-res' => '1920/', // default value
         ],
     ],
 ];
