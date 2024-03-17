@@ -19,12 +19,12 @@ if (!array_key_exists('title', $config)) {
 }
 
 $album = '';
+$access_ok = false;
 
 if (array_key_exists('album', $_REQUEST)) {
-    $album = $_REQUEST['album'];
-    $session_key = 'album_' . $album;
-    $access_ok = false;
-    if (array_key_exists($album, $config['albums'])) {
+    if (array_key_exists($_REQUEST['album'], $config['albums'])) {
+        $album = $_REQUEST['album'];
+        $session_key = 'album_' . $album;
         if (!array_key_exists('secret', $config['albums'][$album])) {
             $access_ok = true;
         } elseif (array_key_exists('secret', $_REQUEST)) {
