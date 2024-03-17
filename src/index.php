@@ -49,7 +49,6 @@ if ($album === '') {
 
 if ($access_ok === false) {
     // uses
-    // - $config['title'];
     // - $config['css'];
     $title = $config['albums'][$album]['title'];
     require('view/secret.php');
