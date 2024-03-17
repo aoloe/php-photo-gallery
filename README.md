@@ -5,7 +5,7 @@ A Simple PHP Photo Gallery with:
 - Listing a gallery by scanning a folder with jpg images.
 - Provide a full screen view and a download button for each image.
 - Posisbility to define low resolution images for the gallery and high resolution ones for the full screen view and the download.
-- Optional protection of individual galleries with specific secret words.
+- Optional protection of individual galleries with secret words.
 - Each album must be defined in the `config.php` file:
 
   ```php
