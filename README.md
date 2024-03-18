@@ -27,6 +27,7 @@ A Simple PHP Photo Gallery with:
 
 ## Installation
 
+- Use a modern version of PHP.
 - Put `index.php` and the `view/` folder somewhere served through http.
 - Create folders with images in there.
 - Use `config-demo.php` as a template for creating your `config.php`.  
