@@ -17,6 +17,9 @@ if (array_key_exists('path', $config)) {
 if (!array_key_exists('title', $config)) {
     $config['title'] = 'A Simple Photo Gallery';
 }
+if (!array_key_exists('albums', $config)) {
+    $config['albums'] = [];
+}
 
 $album = '';
 $access_ok = false;
