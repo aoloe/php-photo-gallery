@@ -8,7 +8,7 @@ session_start();
 $config = file_exists('config.php') ? (require_once('config.php')) : [];
 if (array_key_exists('path', $config)) {
     $path = rtrim($config['path'], '/');
-    if (!empty(trim($path))) {
+    if (trim($path) !== '') {
         $path = $path . '/';
     }
 } else {
