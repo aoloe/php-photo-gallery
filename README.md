@@ -2,12 +2,12 @@
 
 A Simple PHP Photo Gallery with:
 
-- Listing a gallery by scanning a folder with jpg images.
-- Provide a full screen view and a download button for each image.
-- Posisbility to define low resolution images for the gallery and high resolution ones for the full screen view and the download.
-- Optional protection of individual galleries with secret words.
-- Each album must be defined in the `config.php` file:
-
+- Listing a gallery by scanning a folder with images (there is not database).
+- Provide a full screen view and a download button for each image (javascript based).
+- Option to define low resolution images for the gallery and high resolution ones for the full screen view and the download.
+- Optional protection of individual galleries with secret words.  
+  Warning: The images are not protected by the _password_, only their listing.
+- Each album must be defined in the `config.php` file:  
   ```php
   <?php
   return [
@@ -24,3 +24,10 @@ A Simple PHP Photo Gallery with:
       ],
   ];
   ```
+
+## Installation
+
+- Put `index.php` and the `view/` folder somewhere served through http.
+- Create folders with images in there.
+- Use `config-demo.php` as a template for creating your `config.php`.  
+  Fill the `config.php` file according to the content you are publishing.
