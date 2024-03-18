@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="<?= $config['css'] ?>">
     <?php endif; ?>
   </head>
-  <body>
+  <body class="secret">
     <div class="container">
       <h1>
         <a href="?">

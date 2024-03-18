@@ -54,7 +54,7 @@
     <link rel="stylesheet" href="<?= $config['css'] ?>">
     <?php endif; ?>
   </head>
-  <body>
+  <body class="gallery">
     <!-- svg icon template for the download link -->
 		<svg
       xmlns="http://www.w3.org/2000/svg"
