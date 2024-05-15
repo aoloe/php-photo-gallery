@@ -37,3 +37,4 @@ A very Simple PHP Photo Gallery:
 ## Todo
 
 - [ ] Javascript based browsing of the images while the image is maximized.
+- [ ] Improve how portrait and landscape images mix in the gallery.
